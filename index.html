@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remote Control Co. Australia | Find the Right Remote Fast</title>
+  <meta name="description" content="Remote Control Co. Australia helps you find the right TV or air conditioner remote quickly. Order online with brand and model details or call us for expert help." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --primary:#165DDA;
+      --primary-dark:#0f4db8;
+      --secondary:#ff8b1f;
+      --soft:#f5f9ff;
+      --text:#17324d;
+      --muted:#62809c;
+      --border:#dbe7f5;
+    }
+    html{scroll-behavior:smooth}
+    body{
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color:var(--text);
+      background:#ffffff;
+    }
+    .glass{
+      background:rgba(255,255,255,.78);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .hero-bg{
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.82) 0%, rgba(255,255,255,.74) 42%, rgba(255,255,255,.45) 100%),
+        url('https://i.postimg.cc/3Jnrt8Tn/Find-the-right-TV-or-AC-remote.png?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    }
+    .section-bg{
+      background:linear-gradient(180deg,#ffffff 0%, #f7fbff 100%);
+    }
+    .card-hover{
+      transition:transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+    }
+    .card-hover:hover{
+      transform:translateY(-6px);
+      box-shadow:0 20px 40px rgba(22,93,218,.12);
+      border-color:#b8d1f0;
+    }
+    .btn-primary{
+      background:linear-gradient(135deg,var(--primary),#4f88ef);
+      color:#fff;
+      box-shadow:0 12px 30px rgba(22,93,218,.24);
+    }
+    .btn-primary:hover{background:linear-gradient(135deg,var(--primary-dark),var(--primary))}
+    .btn-secondary{
+      background:linear-gradient(135deg,var(--secondary),#ffb14e);
+      color:#fff;
+      box-shadow:0 12px 30px rgba(255,139,31,.24);
+    }
+    .badge{
+      background:linear-gradient(135deg, rgba(22,93,218,.08), rgba(255,139,31,.12));
+      border:1px solid rgba(22,93,218,.12);
+    }
+    .floating-contact{
+      box-shadow:0 18px 40px rgba(15,77,184,.16);
+    }
+    .faq-content{max-height:0;overflow:hidden;transition:max-height .35s ease}
+    .faq-item.active .faq-content{max-height:200px}
+    .faq-item.active .faq-icon{transform:rotate(45deg)}
+    .faq-icon{transition:transform .25s ease}
+    .reveal{
+      opacity:0;
+      transform:translateY(18px);
+      transition:opacity .7s ease, transform .7s ease;
+    }
+    .reveal.visible{
+      opacity:1;
+      transform:none;
+    }
+    .input-focus:focus{
+      outline:none;
+      border-color:var(--primary);
+      box-shadow:0 0 0 4px rgba(22,93,218,.12);
+    }
+    @media (max-width: 768px){
+      .hero-bg{
+        background:
+          linear-gradient(180deg, rgba(255,255,255,.88) 0%, rgba(255,255,255,.8) 48%, rgba(255,255,255,.68) 100%),
+          url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+      }
+    }
+  </style>
+</head>
+<body class="antialiased">
+  <div class="bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2 text-sm">
+        <div class="flex items-center gap-3 text-slate-600">
+          <span class="badge text-[13px] text-slate-700 px-3 py-1 rounded-full font-semibold">Trusted since 2012</span>
+          <span class="hidden sm:inline">Expert help for TV & air conditioner remotes</span>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-5 font-semibold">
+          <a href="tel:1300000000" class="text-[var(--primary)] hover:text-[var(--primary-dark)]">Call: 1300 000 000</a>
+          <a href="mailto:sales@remotecontrolco.com.au" class="text-[var(--primary)] hover:text-[var(--primary-dark)]">sales@remotecontrolco.com.au</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="sticky top-0 z-50 glass border-b border-white/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between py-4">
+        <a href="#home" class="flex items-center gap-3">
+          <img src="https://i.postimg.cc/s2S11PRX/logo-removebg-preview.png" alt="Remote Control Co." class="h-12 sm:h-14 w-auto" />
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium">
+          <a href="#find-remote" class="hover:text-[var(--primary)]">Find a Remote</a>
+          <a href="#how-it-works" class="hover:text-[var(--primary)]">How to Order</a>
+          <a href="#help" class="hover:text-[var(--primary)]">Model Help</a>
+          <a href="#products" class="hover:text-[var(--primary)]">Products</a>
+          <a href="#contact" class="hover:text-[var(--primary)]">Contact</a>
+        </nav>
+
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="tel:1300000000" class="px-4 py-2.5 rounded-xl border border-[var(--border)] bg-white hover:border-[var(--primary)] font-semibold">Call Now</a>
+          <a href="#find-remote" class="px-4 py-2.5 rounded-xl btn-primary font-semibold">Order Online</a>
+        </div>
+
+        <button id="menuBtn" class="lg:hidden p-2 rounded-lg border border-slate-200" aria-label="Open menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="lg:hidden hidden pb-4">
+        <div class="grid gap-2 text-sm font-medium">
+          <a href="#find-remote" class="px-4 py-3 rounded-xl hover:bg-slate-50">Find a Remote</a>
+          <a href="#how-it-works" class="px-4 py-3 rounded-xl hover:bg-slate-50">How to Order</a>
+          <a href="#help" class="px-4 py-3 rounded-xl hover:bg-slate-50">Model Help</a>
+          <a href="#products" class="px-4 py-3 rounded-xl hover:bg-slate-50">Products</a>
+          <a href="#contact" class="px-4 py-3 rounded-xl hover:bg-slate-50">Contact</a>
+          <div class="grid grid-cols-2 gap-2 pt-2">
+            <a href="tel:1300000000" class="text-center px-4 py-3 rounded-xl border border-[var(--border)] font-semibold">Call</a>
+            <a href="#find-remote" class="text-center px-4 py-3 rounded-xl btn-primary font-semibold">Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero-bg relative overflow-hidden">
+      <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-16 left-10 w-40 h-40 bg-blue-200/40 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-12 right-10 w-56 h-56 bg-orange-200/40 rounded-full blur-3xl"></div>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 lg:py-24 relative">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div class="reveal">
+            <div class="inline-flex items-center gap-2 badge rounded-full px-4 py-2 text-sm font-semibold text-slate-700 mb-5">
+              <span class="w-2.5 h-2.5 bg-[var(--secondary)] rounded-full"></span>
+              Easy ordering • Fast help • Australia-wide
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-slate-900">
+              Find the right <span class="text-[var(--primary)]">TV or AC remote</span> without the guesswork
+            </h1>
+            <p class="mt-5 text-lg sm:text-xl text-slate-700 max-w-2xl">
+              Just tell us your brand and model number. Order online in minutes or call our experienced team for help.
+            </p>
+
+            <div class="mt-7 flex flex-col sm:flex-row gap-4">
+              <a href="#find-remote" class="px-6 py-4 rounded-2xl btn-primary font-semibold text-center">Start Your Order</a>
+              <a href="tel:1300000000" class="px-6 py-4 rounded-2xl btn-secondary font-semibold text-center">Call 1300 000 000</a>
+            </div>
+
+            <div class="mt-8 grid sm:grid-cols-3 gap-4">
+              <div class="glass rounded-2xl p-4 border border-white/70 shadow-sm">
+                <div class="text-2xl font-extrabold text-[var(--primary)]" data-count="12">0</div>
+                <div class="text-sm text-slate-600">Years of experience</div>
+              </div>
+              <div class="glass rounded-2xl p-4 border border-white/70 shadow-sm">
+                <div class="text-2xl font-extrabold text-[var(--primary)]">2 ways</div>
+                <div class="text-sm text-slate-600">Order online or call us</div>
+              </div>
+              <div class="glass rounded-2xl p-4 border border-white/70 shadow-sm">
+                <div class="text-2xl font-extrabold text-[var(--primary)]">Fast help</div>
+                <div class="text-sm text-slate-600">Model lookup support</div>
+              </div>
+            </div>
+          </div>
+
+          <div id="find-remote" class="reveal">
+            <div class="bg-white rounded-3xl shadow-2xl p-5 sm:p-7 border border-white/80">
+              <div class="flex items-center justify-between gap-3 mb-5">
+                <div>
+                  <h2 class="text-2xl font-bold text-slate-900">Start your order</h2>
+                  <p class="text-slate-600 text-sm mt-1">Enter what you know and we’ll guide you.</p>
+                </div>
+                <img src="https://i.postimg.cc/QdfJ03Bg/image1.png" alt="Remote controls" class="w-16 h-16 object-contain rounded-2xl bg-slate-50 p-2" />
+              </div>
+
+              <div class="grid grid-cols-2 gap-3 mb-5">
+                <button class="product-tab activeTab px-4 py-3 rounded-2xl font-semibold border border-[var(--border)] bg-[var(--soft)] text-[var(--primary)]" data-type="tv">TV Remote</button>
+                <button class="product-tab px-4 py-3 rounded-2xl font-semibold border border-[var(--border)] hover:bg-slate-50" data-type="ac">Air Conditioner Remote</button>
+              </div>
+
+              <form id="finderForm" class="space-y-4">
+                <input type="hidden" id="productType" value="TV Remote" />
+                <div>
+                  <label class="block text-sm font-semibold mb-2">Brand</label>
+                  <input id="brand" type="text" placeholder="e.g. Samsung, LG, Panasonic, Daikin" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" required />
+                </div>
+                <div>
+                  <label class="block text-sm font-semibold mb-2">Model number of unit or remote</label>
+                  <input id="model" type="text" placeholder="e.g. UA55AU8000 or ARC433A" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" required />
+                </div>
+                <div>
+                  <label class="block text-sm font-semibold mb-2">Your name</label>
+                  <input id="name" type="text" placeholder="Full name" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" />
+                </div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-sm font-semibold mb-2">Phone</label>
+                    <input id="phone" type="tel" placeholder="Phone number" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" />
+                  </div>
+                  <div>
+                    <label class="block text-sm font-semibold mb-2">Email</label>
+                    <input id="email" type="email" placeholder="Email address" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" />
+                  </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-3 pt-1">
+                  <button type="submit" class="px-5 py-3.5 rounded-2xl btn-primary font-semibold">Check My Details</button>
+                  <a href="tel:1300000000" class="px-5 py-3.5 rounded-2xl text-center border border-[var(--border)] hover:border-[var(--primary)] font-semibold">Prefer to call us?</a>
+                </div>
+              </form>
+
+              <div id="resultBox" class="hidden mt-5 rounded-2xl bg-[var(--soft)] border border-[#cfe0f6] p-4">
+                <p id="resultText" class="text-sm sm:text-base text-slate-700"></p>
+              </div>
+
+              <div class="mt-5 text-xs text-slate-500">
+                Need help finding your model? <a href="#help" class="text-[var(--primary)] font-semibold">See our quick guide</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 border-y border-slate-100 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="reveal rounded-3xl border border-[var(--border)] p-6 bg-white card-hover">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5h18M9 3v2m6-2v2M8 13h8m-8 4h5M5 8h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8a2 2 0 012-2z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">Simple online ordering</h3>
+                <p class="text-slate-600 text-sm">Enter brand and model to get started quickly.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal rounded-3xl border border-[var(--border)] p-6 bg-white card-hover">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-orange-50 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a2 2 0 011.9 1.37l.95 2.83a2 2 0 01-.5 2.06l-1.3 1.3a16.04 16.04 0 006.36 6.36l1.3-1.3a2 2 0 012.06-.5l2.83.95A2 2 0 0121 18.72V22a2 2 0 01-2 2h-1C9.72 24 0 14.28 0 2V1a2 2 0 012-2h1z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">Talk to a real expert</h3>
+                <p class="text-slate-600 text-sm">Call us if you’re unsure which remote you need.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal rounded-3xl border border-[var(--border)] p-6 bg-white card-hover">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">Trusted since 2012</h3>
+                <p class="text-slate-600 text-sm">Over a decade helping customers find the right fit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="py-20 section-bg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto reveal">
+          <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">Two easy ways to order</span>
+          <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">A simpler, faster buying experience</h2>
+          <p class="mt-4 text-lg text-slate-600">No clutter, no confusion — just the information we need to help you get the correct remote.</p>
+        </div>
+
+        <div class="mt-12 grid lg:grid-cols-2 gap-8">
+          <div class="reveal bg-white rounded-3xl p-8 border border-[var(--border)] shadow-sm">
+            <div class="flex items-center gap-4 mb-5">
+              <div class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-[var(--primary)] font-extrabold text-xl">1</div>
+              <h3 class="text-2xl font-bold">Order online</h3>
+            </div>
+            <ul class="space-y-4 text-slate-700">
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--primary)]"></span>Choose TV remote or air conditioner remote</li>
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--primary)]"></span>Enter the brand and model number of your unit or remote</li>
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--primary)]"></span>Use our help guide if you’re unsure where to find the details</li>
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--primary)]"></span>Submit and continue to complete your order</li>
+            </ul>
+            <a href="#find-remote" class="inline-block mt-6 px-6 py-3.5 rounded-2xl btn-primary font-semibold">Start online</a>
+          </div>
+
+          <div class="reveal bg-white rounded-3xl p-8 border border-[var(--border)] shadow-sm">
+            <div class="flex items-center gap-4 mb-5">
+              <div class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-[var(--secondary)] font-extrabold text-xl">2</div>
+              <h3 class="text-2xl font-bold">Call us</h3>
+            </div>
+            <ul class="space-y-4 text-slate-700">
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--secondary)]"></span>Speak directly with our experienced team</li>
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--secondary)]"></span>Tell us your brand and model number over the phone</li>
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--secondary)]"></span>Get fast guidance if your original remote is missing or damaged</li>
+              <li class="flex gap-3"><span class="mt-1 w-2.5 h-2.5 rounded-full bg-[var(--secondary)]"></span>Perfect if you’d rather not order online</li>
+            </ul>
+            <a href="tel:1300000000" class="inline-block mt-6 px-6 py-3.5 rounded-2xl btn-secondary font-semibold">Call 1300 000 000</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!--  <section id="help" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div class="reveal">
+            <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">Need help finding the model?</span>
+            <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">We only need two key details</h2>
+            <p class="mt-4 text-lg text-slate-600">To help match the correct remote, please provide:</p>
+
+            <div class="mt-8 space-y-4">
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold text-lg">1. Brand</h3>
+                <p class="text-slate-600 mt-1">For example: Samsung, Sony, LG, Panasonic, Fujitsu, Daikin, Mitsubishi Electric.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold text-lg">2. Model number</h3>
+                <p class="text-slate-600 mt-1">This can often be found on the TV sticker, the air conditioner unit label, or printed on the original remote.</p>
+              </div>
+            </div>
+
+            <div class="mt-8 grid sm:grid-cols-2 gap-4">
+              <div class="rounded-2xl border border-[var(--border)] p-5">
+                <h4 class="font-semibold">For TVs</h4>
+                <p class="text-sm text-slate-600 mt-1">Check the back of the television or the original remote body.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5">
+                <h4 class="font-semibold">For air conditioners</h4>
+                <p class="text-sm text-slate-600 mt-1">Look on the indoor unit sticker or the original remote label.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div class="rounded-3xl overflow-hidden border border-[var(--border)] shadow-sm card-hover bg-white">
+                <img src="https://i.postimg.cc/x8Y3CTJ8/TV-remote.png" alt="TV remote" class="w-full h-62 object-cover bg-slate-50" />
+                <div class="p-5">
+                  <h3 class="font-bold text-lg">TV remote help</h3>
+                  <p class="text-slate-600 text-sm mt-2">Find the TV brand and model to speed up matching.</p>
+                </div>
+              </div>
+              <div class="rounded-3xl overflow-hidden border border-[var(--border)] shadow-sm card-hover bg-white">
+                <img src="https://i.postimg.cc/TPp7MwgR/AC-remote.png" alt="Air conditioner remote" class="w-full h-62 object-cover bg-slate-50" />
+                <div class="p-5">
+                  <h3 class="font-bold text-lg">AC remote help</h3>
+                  <p class="text-slate-600 text-sm mt-2">Unit and remote model details help ensure a correct match.</p>
+                </div>
+              </div>
+              <div class="sm:col-span-2 rounded-3xl overflow-hidden border border-[var(--border)] shadow-sm bg-white card-hover">
+                <img src="https://i.postimg.cc/NfRvSNYH/57.webp" alt="Remote collection" class="w-full h-7 object-cover" />
+                <div class="p-6">
+                  <h3 class="font-bold text-xl">Not sure what to send us?</h3>
+                  <p class="text-slate-600 mt-2">Call or email us a photo of the remote or unit label and we’ll point you in the right direction.</p>
+                  <div class="mt-4 flex flex-wrap gap-3">
+                    <a href="tel:1300000000" class="px-5 py-3 rounded-2xl btn-secondary font-semibold">Call us</a>
+                    <a href="mailto:sales@remotecontrolco.com.au" class="px-5 py-3 rounded-2xl border border-[var(--border)] hover:border-[var(--primary)] font-semibold">Email a photo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+    <section id="help" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div class="reveal visible">
+            <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">Need help finding the model?</span>
+            <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">We only need two key details</h2>
+            <p class="mt-4 text-lg text-slate-600">To help match the correct remote, please provide:</p>
+
+            <div class="mt-8 space-y-4">
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold text-lg">1. Brand</h3>
+                <p class="text-slate-600 mt-1">For example: Samsung, Sony, LG, Panasonic, Fujitsu, Daikin, Mitsubishi Electric.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold text-lg">2. Model number</h3>
+                <p class="text-slate-600 mt-1">This can often be found on the TV sticker, the air conditioner unit label, or printed on the original remote.</p>
+              </div>
+            </div>
+
+            <div class="mt-8 grid sm:grid-cols-2 gap-4">
+              <div class="rounded-2xl border border-[var(--border)] p-5">
+                <h4 class="font-semibold">For TVs</h4>
+                <p class="text-sm text-slate-600 mt-1">Check the back of the television or the original remote body.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5">
+                <h4 class="font-semibold">For air conditioners</h4>
+                <p class="text-sm text-slate-600 mt-1">Look on the indoor unit sticker or the original remote label.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal visible">
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div class="rounded-3xl overflow-hidden border border-[var(--border)] shadow-sm card-hover bg-white">
+                <img src="https://i.postimg.cc/x8Y3CTJ8/TV-remote.png" alt="TV remote" class="w-full h-62 object-cover bg-slate-50">
+                <div class="p-5">
+                  <h3 class="font-bold text-lg">TV remote help</h3>
+                  <p class="text-slate-600 text-sm mt-2">Find the TV brand and model to speed up matching.</p>
+                </div>
+              </div>
+              <div class="rounded-3xl overflow-hidden border border-[var(--border)] shadow-sm card-hover bg-white">
+                <img src="https://i.postimg.cc/TPp7MwgR/AC-remote.png" alt="Air conditioner remote" class="w-full h-62 object-cover bg-slate-50">
+                <div class="p-5">
+                  <h3 class="font-bold text-lg">AC remote help</h3>
+                  <p class="text-slate-600 text-sm mt-2">Unit and remote model details help ensure a correct match.</p>
+                </div>
+              </div>
+              <div class="sm:col-span-2 rounded-3xl overflow-hidden border border-[var(--border)] shadow-sm bg-white card-hover">
+                <img src="https://i.postimg.cc/QdfJ03Bg/image1.png" alt="Remote collection" class="w-full h-72 object-cover">
+                <div class="p-6">
+                  <h3 class="font-bold text-xl">Not sure what to send us?</h3>
+                  <p class="text-slate-600 mt-2">Call or email us a photo of the remote or unit label and we’ll point you in the right direction.</p>
+                  <div class="mt-4 flex flex-wrap gap-3">
+                    <a href="tel:1300000000" class="px-5 py-3 rounded-2xl btn-secondary font-semibold">Call us</a>
+                    <a href="mailto:sales@remotecontrolco.com.au" class="px-5 py-3 rounded-2xl border border-[var(--border)] hover:border-[var(--primary)] font-semibold">Email a photo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    ----
+
+    <section id="products" class="py-20 section-bg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto reveal">
+          <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">What we sell</span>
+          <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">Focused on the products customers actually need</h2>
+          <p class="mt-4 text-lg text-slate-600">Less clutter, more clarity. Explore our main product categories below.</p>
+        </div>
+
+        <div class="mt-12 grid md:grid-cols-3 gap-6">
+          <div class="reveal rounded-3xl bg-white border border-[var(--border)] overflow-hidden shadow-sm card-hover">
+            <img src="https://i.postimg.cc/x8Y3CTJ8/TV-remote.png" alt="TV remotes" class="w-full h-64 object-cover bg-slate-50" />
+            <div class="p-6">
+              <h3 class="text-xl font-bold">TV Remotes</h3>
+              <p class="text-slate-600 mt-2">Replacement remotes for popular TV brands. Best results when you provide the exact model.</p>
+              <a href="#find-remote" class="inline-block mt-5 text-[var(--primary)] font-semibold">Find my TV remote →</a>
+            </div>
+          </div>
+
+          <div class="reveal rounded-3xl bg-white border border-[var(--border)] overflow-hidden shadow-sm card-hover">
+            <img src="https://i.postimg.cc/TPp7MwgR/AC-remote.png" alt="Air conditioner remotes" class="w-full h-64 object-cover bg-slate-50" />
+            <div class="p-6">
+              <h3 class="text-xl font-bold">Air Conditioner Remotes</h3>
+              <p class="text-slate-600 mt-2">Remotes for split systems and other air conditioning units with helpful matching support.</p>
+              <a href="#find-remote" class="inline-block mt-5 text-[var(--primary)] font-semibold">Find my AC remote →</a>
+            </div>
+          </div>
+
+          <div class="reveal rounded-3xl bg-white border border-[var(--border)] overflow-hidden shadow-sm card-hover">
+            <img src="https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=1200&q=80" alt="Wall holder for air conditioner remote" class="w-full h-64 object-cover" />
+            <div class="p-6">
+              <h3 class="text-xl font-bold">Wall Holders for AC Remotes</h3>
+              <p class="text-slate-600 mt-2">Keep air conditioner remotes safe, visible, and easy to find with practical wall holders.</p>
+              <a href="#contact" class="inline-block mt-5 text-[var(--primary)] font-semibold">Ask about wall holders →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div class="reveal">
+            <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80" alt="Customer service and assistance" class="w-full rounded-3xl shadow-xl object-cover h-[420px]" />
+          </div>
+          <div class="reveal">
+            <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">Why customers choose us</span>
+            <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">Experienced help from a specialist remote seller</h2>
+            <p class="mt-4 text-lg text-slate-600">We’ve been selling remotes since 2012. That means better advice, less confusion, and a smoother path to finding the correct remote for your TV or air conditioner.</p>
+            <div class="mt-8 grid sm:grid-cols-2 gap-4">
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold">Clearer navigation</h3>
+                <p class="text-sm text-slate-600 mt-1">Important actions and contact details are front and centre.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold">Less clutter</h3>
+                <p class="text-sm text-slate-600 mt-1">No unnecessary sections competing for attention.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold">Faster assistance</h3>
+                <p class="text-sm text-slate-600 mt-1">Call us or order online using the same key details.</p>
+              </div>
+              <div class="rounded-2xl border border-[var(--border)] p-5 bg-[var(--soft)]">
+                <h3 class="font-bold">Accessory options</h3>
+                <p class="text-sm text-slate-600 mt-1">We also supply wall holders for air conditioner remotes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 section-bg">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto reveal">
+          <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">Common questions</span>
+          <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">Frequently asked questions</h2>
+        </div>
+
+        <div class="mt-12 space-y-4">
+          <div class="faq-item reveal rounded-2xl border border-[var(--border)] bg-white">
+            <button class="faq-toggle w-full flex items-center justify-between gap-4 px-6 py-5 text-left">
+              <span class="font-bold">What information do I need before ordering?</span>
+              <span class="faq-icon text-2xl text-[var(--primary)]">+</span>
+            </button>
+            <div class="faq-content px-6">
+              <p class="pb-5 text-slate-600">Please provide the brand of your TV or air conditioner and the model number of the unit or remote if available.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal rounded-2xl border border-[var(--border)] bg-white">
+            <button class="faq-toggle w-full flex items-center justify-between gap-4 px-6 py-5 text-left">
+              <span class="font-bold">Can I order by phone instead of online?</span>
+              <span class="faq-icon text-2xl text-[var(--primary)]">+</span>
+            </button>
+            <div class="faq-content px-6">
+              <p class="pb-5 text-slate-600">Yes. There are two ways to order: submit your details online or call us directly for assistance.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal rounded-2xl border border-[var(--border)] bg-white">
+            <button class="faq-toggle w-full flex items-center justify-between gap-4 px-6 py-5 text-left">
+              <span class="font-bold">What if I can’t find the model number?</span>
+              <span class="faq-icon text-2xl text-[var(--primary)]">+</span>
+            </button>
+            <div class="faq-content px-6">
+              <p class="pb-5 text-slate-600">Use our help section or call/email us with a photo of your unit label or remote. We’ll do our best to guide you.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal rounded-2xl border border-[var(--border)] bg-white">
+            <button class="faq-toggle w-full flex items-center justify-between gap-4 px-6 py-5 text-left">
+              <span class="font-bold">Do you also sell accessories?</span>
+              <span class="faq-icon text-2xl text-[var(--primary)]">+</span>
+            </button>
+            <div class="faq-content px-6">
+              <p class="pb-5 text-slate-600">Yes, we also sell wall holders for air conditioner remotes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-8 items-start">
+          <div class="reveal">
+            <span class="badge inline-flex rounded-full px-4 py-2 text-sm font-semibold text-slate-700">Contact us</span>
+            <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">Get in touch</h2>
+            <p class="mt-4 text-lg text-slate-600">Need help choosing the right remote? Contact our team by phone or email, or send us your details online.</p>
+
+            <div class="mt-8 grid sm:grid-cols-2 gap-4">
+              <a href="tel:1300000000" class="rounded-3xl border border-[var(--border)] p-6 bg-[var(--soft)] card-hover">
+                <div class="text-sm font-semibold text-slate-500">Phone</div>
+                <div class="mt-2 text-2xl font-extrabold text-[var(--primary)]">1300 000 000</div>
+                <div class="mt-2 text-slate-600">Call for fast assistance</div>
+              </a>
+              <a href="mailto:sales@remotecontrolco.com.au" class="rounded-3xl border border-[var(--border)] p-6 bg-[var(--soft)] card-hover">
+                <div class="text-sm font-semibold text-slate-500">Email</div>
+                <div class="mt-2 text-xl font-extrabold text-[var(--primary)] break-all">sales@remotecontrolco.com.au</div>
+                <div class="mt-2 text-slate-600">Send your model details or photos</div>
+              </a>
+            </div>
+
+            <div class="mt-6 rounded-3xl overflow-hidden shadow-lg border border-[var(--border)]">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80" alt="Friendly support team" class="w-full h-72 object-cover" />
+            </div>
+          </div>
+
+          <div class="reveal bg-white rounded-3xl border border-[var(--border)] shadow-sm p-6 sm:p-8">
+            <h3 class="text-2xl font-bold">Send us your enquiry</h3>
+            <p class="text-slate-600 mt-2">We’ll get back to you as soon as possible.</p>
+            <form id="contactForm" class="mt-6 space-y-4">
+              <div class="grid sm:grid-cols-2 gap-4">
+                <input type="text" id="contactName" placeholder="Your name" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" required />
+                <input type="tel" id="contactPhone" placeholder="Phone number" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" />
+              </div>
+              <input type="email" id="contactEmail" placeholder="Email address" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" required />
+              <input type="text" id="contactSubject" placeholder="Brand and model (if known)" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition" />
+              <textarea id="contactMessage" rows="5" placeholder="Tell us what remote or wall holder you need" class="w-full px-4 py-3 rounded-2xl border border-[var(--border)] input-focus transition resize-none"></textarea>
+              <button type="submit" class="w-full px-5 py-4 rounded-2xl btn-primary font-semibold">Send enquiry</button>
+            </form>
+            <div id="contactResult" class="hidden mt-4 rounded-2xl bg-[var(--soft)] border border-[#cfe0f6] p-4 text-slate-700 text-sm"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#f4f9ff] border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="grid md:grid-cols-4 gap-10">
+        <div class="md:col-span-2">
+          <img src="https://i.postimg.cc/s2S11PRX/logo-removebg-preview.png" alt="Remote Control Co." class="h-14 w-auto" />
+          <p class="mt-4 text-slate-600 max-w-xl">Remote Control Co. Australia helps customers find replacement TV and air conditioner remotes quickly and easily. We’ve been selling remotes since 2012.</p>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="tel:1300000000" class="px-5 py-3 rounded-2xl btn-secondary font-semibold">1300 000 000</a>
+            <a href="mailto:sales@remotecontrolco.com.au" class="px-5 py-3 rounded-2xl border border-[var(--border)] hover:border-[var(--primary)] font-semibold">Email us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900">Quick links</h4>
+          <ul class="mt-4 space-y-3 text-slate-600">
+            <li><a href="#find-remote" class="hover:text-[var(--primary)]">Find a remote</a></li>
+            <li><a href="#how-it-works" class="hover:text-[var(--primary)]">How to order</a></li>
+            <li><a href="#help" class="hover:text-[var(--primary)]">Model help</a></li>
+            <li><a href="#products" class="hover:text-[var(--primary)]">Products</a></li>
+            <li><a href="#contact" class="hover:text-[var(--primary)]">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-slate-900">Contact details</h4>
+          <ul class="mt-4 space-y-3 text-slate-600">
+            <li><span class="font-semibold text-slate-900">Phone:</span> <a href="tel:1300000000" class="hover:text-[var(--primary)]">1300 000 000</a></li>
+            <li><span class="font-semibold text-slate-900">Email:</span> <a href="mailto:sales@remotecontrolco.com.au" class="hover:text-[var(--primary)] break-all">sales@remotecontrolco.com.au</a></li>
+            <li><span class="font-semibold text-slate-900">Website:</span> <a href="#" class="hover:text-[var(--primary)]">remotecontrolco.com.au</a></li>
+            <li><span class="font-semibold text-slate-900">Accessories:</span> Wall holders for AC remotes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-10 pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+        <p>© 2026 Remote Control Co. Australia. All rights reserved deve;oped by Zannatul.</p>
+        <div class="flex items-center gap-5">
+          <a href="#" class="hover:text-[var(--primary)]">Privacy Policy</a>
+          <a href="#" class="hover:text-[var(--primary)]">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-1.5rem)] max-w-md floating-contact lg:hidden">
+    <div class="bg-white border border-[var(--border)] rounded-2xl p-3 flex items-center gap-3">
+      <a href="tel:1300000000" class="flex-1 text-center px-4 py-3 rounded-xl btn-secondary font-semibold">Call Now</a>
+      <a href="#find-remote" class="flex-1 text-center px-4 py-3 rounded-xl btn-primary font-semibold">Order Online</a>
+    </div>
+  </div>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    const tabs = document.querySelectorAll('.product-tab');
+    const productType = document.getElementById('productType');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('activeTab','bg-[var(--soft)]','text-[var(--primary)]'));
+        tabs.forEach(t => t.classList.add('hover:bg-slate-50'));
+        tab.classList.add('activeTab','bg-[var(--soft)]','text-[var(--primary)]');
+        tab.classList.remove('hover:bg-slate-50');
+        productType.value = tab.dataset.type === 'ac' ? 'Air Conditioner Remote' : 'TV Remote';
+      });
+    });
+
+    const finderForm = document.getElementById('finderForm');
+    const resultBox = document.getElementById('resultBox');
+    const resultText = document.getElementById('resultText');
+    finderForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      const brand = document.getElementById('brand').value.trim();
+      const model = document.getElementById('model').value.trim();
+      const name = document.getElementById('name').value.trim() || 'there';
+      const type = productType.value;
+      resultText.innerHTML = `Thanks, <strong>${name}</strong>. We’ve captured your <strong>${type}</strong> request for <strong>${brand}</strong> model <strong>${model}</strong>. You can continue by calling <a href="tel:1300000000" class="text-[var(--primary)] font-semibold">1300 000 000</a> or sending these details to <a href="mailto:sales@remotecontrolco.com.au" class="text-[var(--primary)] font-semibold">sales@remotecontrolco.com.au</a>.`;
+      resultBox.classList.remove('hidden');
+    });
+
+    const contactForm = document.getElementById('contactForm');
+    const contactResult = document.getElementById('contactResult');
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('contactName').value.trim();
+      contactResult.textContent = `Thanks ${name}. Your enquiry is ready to send. For immediate assistance, please call 1300 000 000 or email sales@remotecontrolco.com.au.`;
+      contactResult.classList.remove('hidden');
+      contactForm.reset();
+    });
+
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        item.classList.toggle('active');
+      });
+    });
+
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {threshold:0.14});
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    const counter = document.querySelector('[data-count]');
+    let counted = false;
+    const countObserver = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting && !counted){
+          counted = true;
+          let current = 0;
+          const target = +counter.dataset.count;
+          const step = () => {
+            current++;
+            counter.textContent = current + '+';
+            if(current < target) requestAnimationFrame(step);
+          };
+          step();
+        }
+      });
+    }, {threshold:.6});
+    if(counter) countObserver.observe(counter);
+  </script>
+</body>
+</html>
